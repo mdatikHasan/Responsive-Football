@@ -125,7 +125,6 @@ body{
 .footbal-items{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .football-img img{
