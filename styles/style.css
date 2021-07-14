@@ -228,6 +228,8 @@ body{
 
 
 /* footer */
+
+
 .footbal-items{
     display: flex;
     flex-direction: column;
@@ -256,3 +258,266 @@ body{
     margin-top: 0;
     margin-bottom: 63px;
 }
+
+
+
+/* Media query */
+
+@media only screen and (max-width:688px){
+    
+    .container{
+    padding: 67px 141px 86px 196px;
+    }
+
+
+
+
+    /*------------------------- 
+            header section 
+    ---------------------------*/
+
+    #header{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 677px;
+    }
+    .info-img{
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    /* ---Banner Information style---  */
+
+    .banner-info{
+    margin-right: 20px;
+    }
+    .banner-info h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    }
+    .banner-info a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #E02C6D;
+    padding: 5px 15px;
+    }
+    .banner-info a .fa-arrow-right{
+    color: #FFFFFF;
+    margin-left: 4px;
+    }
+    .banner-info a:hover .fa-arrow-right{
+    transform: rotate(360deg);
+    transition: 1s;
+    font-size: 10px;
+    }
+    .banner-info a:hover{
+    background-color: coral;
+    transition: 1s;
+    padding: 15px 30px;
+
+    } 
+
+}
+
+
+
+@media only screen and (max-width:992px){
+    
+
+
+    #header{
+    margin-left: 15px;
+    }
+    .info-img{
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    /* ---Banner Information style---  */
+
+    .banner-info{
+    margin-right: 0px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    
+    }
+    .banner-info h1{
+    font-size: 34px;
+    }
+    .banner-info a{
+    padding: 5px 15px;
+    margin-left: 180px;
+    }
+    
+     
+    .banner-img{
+        margin-left: 120px;
+        margin-top: 30px;
+
+    }
+    .banner-img img{
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+
+@media only screen and (max-width:688px){
+    
+    .banner-info h1{
+    font-size: 34px;
+    }
+    .banner-info a{
+    padding: 5px 15px;
+    margin-left: 70px;
+    }
+    
+    .banner-info a{
+        padding: 2px 5px;
+        }
+    .banner-img{
+        margin-left: 30px;
+        margin-top: 30px;
+
+    }
+    .banner-img img{
+        max-width: 250px;
+        max-height: 200px;
+    }
+
+    .banner-info{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        
+        }
+
+}
+
+
+
+/* blog  */
+
+
+@media only screen and (max-width:992px){
+
+
+    .container-blogs{
+    margin-left: 140px;
+    margin-top: 70px;
+    margin-right: 210px;
+    }
+    .blog-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:688px){
+
+
+    .container-blogs{
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-right: 210px;
+    }
+    .blog-items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    }
+
+}
+
+/* football  */
+@media only screen and (max-width:688px){
+    .media{
+        margin-left: 40px;
+    }
+    .media-info h3{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .media-info p{
+        font-size: 10px;
+    }
+
+}
+
+
+/*  world-cup */
+
+
+@media only screen and (max-width:992px){
+    .world-cup{
+        margin: 80px 0;
+    }
+    
+    .world-cup-winner{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 80px;
+        grid-row-gap: 30px;
+    }
+    
+
+}
+
+@media only screen and (max-width:688px){
+    .world-cup{
+        margin: 80px 0;
+    }
+    
+    .world-cup-winner{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 190px;
+        grid-row-gap: 30px;
+    }
+    
+
+}
+@media only screen and (max-width:688px){
+    .footbal-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .football-img img{
+        max-width: 300px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    
+    .social-icon{
+        margin-bottom: 15px;
+    }
+    
+    .social-icon i{
+        margin: 0px 8px;
+        font-size: 12px;
+        padding: 13px;
+
+    }
+    .copyright p{
+        font-size: 12px;
+        margin-bottom: 53px;
+    }
+
+}
+@media only screen and (max-width:992px){
+
+
+}
+
+
+
