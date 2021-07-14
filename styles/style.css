@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    padding: 70px 141px 86px 156px;
+    padding: 67px 141px 86px 156px;
 }
 
 
@@ -118,4 +118,36 @@ body{
 }
 .blog-info p{
     margin-top: 0;
+}
+
+
+/* footer */
+.footbal-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.football-img img{
+    width: 483px;
+    height: 110px;margin-bottom: 20px;
+}
+
+.social-icon{
+    margin-bottom: 20px;
+}
+
+.social-icon i{
+    margin: 0px 14px;
+    color: #969BAB;
+    font-size: 17px;
+    padding: 13px;
+    border-radius: 50%;
+    background-color: #e5e6ee;
+}
+.copyright p{
+    color: #000000;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 63px;
 }
