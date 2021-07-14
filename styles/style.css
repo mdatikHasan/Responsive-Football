@@ -261,7 +261,14 @@ body{
 
 
 
-/* Media query */
+/*---------------------------------------------- Media query ---------------------------------------*/
+
+/*--------------------------
+   Small device = 688px 
+   Medium Deivce = 689px to 922px
+   large Device =  993px +
+----------------------------*/
+
 
 @media only screen and (max-width:688px){
     
